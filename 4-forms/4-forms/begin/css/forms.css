@@ -27,8 +27,7 @@ section {
 	margin-right: 10%;
 }
 aside {
-	flex-basis: 33%;
-	border:1px solid black;	
+	flex-basis: 33%;	
 }
 fieldset{
 	border:1px solid black;
