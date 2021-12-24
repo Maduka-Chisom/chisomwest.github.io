@@ -1,0 +1,126 @@
+body {
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin:-8rem auto;
+    margin-top: 2rem;
+    width: 90%;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 2rem;
+    
+}
+
+li {
+   display: inline-block;
+   margin-right:3rem;
+   color: white;
+}
+
+a {
+    color: black;
+    font-weight:600;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color:#57554f;
+}
+a:hover {
+    color:#41f08a;
+}
+
+.logo {
+    padding: 0; 
+    margin-top: 0.5em;
+    margin: 0;
+    margin-right: 43rem;
+    
+}
+
+section {
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 11rem 7rem;
+    align-items: flex-end;
+    height: 30rem;
+    border-bottom: 1px solid black;
+}
+
+.chat {
+    width: 75%;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #57554f;
+}
+
+.contact {
+    margin-bottom:13rem;
+    
+}
+
+.email {
+    color:blue;
+}
+
+.email:visited {
+    color:#58718f;
+}
+
+.email:hover{
+    color:#58718f;
+}
+
+
+.project {
+    width: 50%;
+    color: #57554f;
+    font-size: 1.1rem;
+    margin-bottom: 2.7rem;
+}
+
+.socials {
+    color: blue;
+}
+
+.socials:visited {
+    color:#58718f;
+}
+
+h1 {
+    font-weight:500;
+}
+
+
+
+.twitter {
+    margin-bottom: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top:-4rem;
+    margin-bottom: 4rem;
+
+}
+
+.first,.second,.third {
+    color:#57554f;
+}
+
+
